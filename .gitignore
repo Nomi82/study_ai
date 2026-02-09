@@ -52,5 +52,5 @@ ios/Runner/GoogleService-Info.plist
 lib/core/config/env.dart
 
 # Firebase
-android/google-services.json
+android/app/google-services.json
 lib/firebase_options.dart

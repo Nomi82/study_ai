@@ -1,4 +1,4 @@
-package com.studyai.study_ai
+package com.nomi.studyai
 
 import io.flutter.embedding.android.FlutterActivity
 

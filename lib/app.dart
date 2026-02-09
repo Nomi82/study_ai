@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:study_ai/core/theme/app_theme.dart';
+import 'package:study_ai/features/auth/presentation/pages/login_page.dart';
 
 class StudyAiApp extends StatelessWidget {
   const StudyAiApp({super.key});
@@ -12,11 +13,7 @@ class StudyAiApp extends StatelessWidget {
       theme: AppTheme.lightTheme,
       darkTheme: AppTheme.darkTheme,
       themeMode: ThemeMode.system,
-      home: const Scaffold(
-        body: Center(
-          child: Text('Study AI'),
-        ),
-      ),
+      home: const LoginPage(),
     );
   }
 }
