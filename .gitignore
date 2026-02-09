@@ -50,3 +50,7 @@ app.*.map.json
 android/key.properties
 ios/Runner/GoogleService-Info.plist
 lib/core/config/env.dart
+
+# Firebase
+android/google-services.json
+lib/firebase_options.dart
